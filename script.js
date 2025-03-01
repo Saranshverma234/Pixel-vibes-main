@@ -8,7 +8,7 @@ sendButton.addEventListener('click', () => {
     const message = messageInput.value;
     if (message) {
         socket.emit('sendMessage', { user: 'Ishanka', message });
-        messageInput.value = '';
+        messageInput.value = 'Hi';
     }
 });
 
